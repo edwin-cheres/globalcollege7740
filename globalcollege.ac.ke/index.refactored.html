@@ -1,0 +1,203 @@
+﻿<!doctype html>
+<!--
+  Refactored homepage (standalone) for Global Technical College.
+  Architectural notes:
+  - Uses strict semantic HTML5: header, main, section, article, footer.
+  - Centralized styling in assets/css/styles.css, behaviour in assets/js/main.js.
+  - Lightweight, accessible, and performance-minded (no heavy frameworks).
+  - CTA points to existing application URL to preserve conversion flow.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Global Technical College — Refactored Homepage</title>
+  <meta name="description" content="Gain job-ready skills at Global Technical College — ICT, Electrical, Hospitality, Hairdressing, English & Business." />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+  <link rel="stylesheet" href="assets/css/site-enhancements.css">
+  <script defer src="assets/js/site-enhancements.js"></script></head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Global Technical College"> 
+        <img src="wp-content/uploads/2025/10/GTTI-LOGO.png" alt="Global Technical College logo" width="180" height="50">
+      </a>
+      <nav class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="college-courses-at-gttc.html">Academics</a></li>
+          <li><a href="about-gttc.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="gttc-online-college-application.html">Apply Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <!-- Cinematic Hero -->
+    <section class="hero" aria-label="Hero — Apply now">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy" data-animate>
+          <h1>Build Job‑Ready Skills. Launch Your Career.</h1>
+          <p class="lead">Hands-on training in ICT, Electrical Engineering, Hospitality, Hairdressing, English and Business — practical, career-focused, Nairobi.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="gttc-online-college-application.html">Apply Now</a>
+            <a class="btn btn-ghost" href="#courses">Explore Courses</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true" data-animate>
+          <!-- Subtle animated SVG / gradient as visual anchor -->
+          <svg viewBox="0 0 600 400" class="hero-svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#06b" stop-opacity="0.9" />
+                <stop offset="1" stop-color="#6a1" stop-opacity="0.7" />
+              </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#g1)"></rect>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Directory Grid -->
+    <section id="courses" class="courses container" aria-labelledby="courses-title">
+      <h2 id="courses-title" class="section-title" data-animate>Schools & Programs</h2>
+      <p class="section-lead" data-animate>Choose a school to view our signature, career-ready programs.</p>
+      <div class="grid grid-3" role="list">
+        <!-- Each card is an article for semantic clarity -->
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media ict" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>School of ICT</h3>
+            <p>Software, networks and digital skills designed for employment.</p>
+            <a class="card-link" href="technology-courses-in-nairobi-at-global-college.html">View Courses</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media electrical" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>Electrical Engineering</h3>
+            <p>Practical electrical training with modern labs and instructors.</p>
+            <a class="card-link" href="electrical-engineering-courses-in-kenya.html">View Courses</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media hospitality" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>Hospitality</h3>
+            <p>Hospitality and culinary programs built around real-world service.</p>
+            <a class="card-link" href="hospitality-courses-in-kenya-in-kenya.html">View Courses</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media hairdressing" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>Hairdressing & Beauty</h3>
+            <p>Creative and technical beauty training for dynamic careers.</p>
+            <a class="card-link" href="hairdressing-and-beauty-therapy-courses.html">View Courses</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media english" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>English Programmes</h3>
+            <p>Flexible English programmes to upgrade your communication & employability.</p>
+            <a class="card-link" href="learn-english-programmes-tuition-fees.html">View Courses</a>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" data-animate>
+          <div class="card-media business" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>School of Business</h3>
+            <p>Practical business, entrepreneurship and finance courses.</p>
+            <a class="card-link" href="business-courses-in-kenya-at-global-college.html">View Courses</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3-Step Application Wizard (progressive) -->
+    <section id="apply" class="apply container" aria-labelledby="apply-title">
+      <h2 id="apply-title" class="section-title" data-animate>Apply in 3 Steps</h2>
+      <p class="section-lead" data-animate>Fast, guided application — complete these three simple steps.</p>
+
+      <div class="wizard" data-animate>
+        <ol class="wizard-steps" role="tablist">
+          <li class="step active" data-step="1" aria-selected="true">1. Personal details</li>
+          <li class="step" data-step="2" aria-selected="false">2. Course selection</li>
+          <li class="step" data-step="3" aria-selected="false">3. Confirm & submit</li>
+        </ol>
+
+        <form id="applicationForm" class="wizard-form" novalidate>
+          <div class="wizard-panel" data-panel="1">
+            <label>Full name <input name="name" required></label>
+            <label>Email <input name="email" type="email" required></label>
+            <div class="form-row">
+              <button type="button" class="btn btn-ghost" data-action="next">Next</button>
+            </div>
+          </div>
+
+          <div class="wizard-panel hidden" data-panel="2">
+            <label>Choose a school
+              <select name="school" required>
+                <option value="">Select</option>
+                <option>School of ICT</option>
+                <option>Electrical Engineering</option>
+                <option>Hospitality</option>
+                <option>Hairdressing & Beauty</option>
+                <option>English Programmes</option>
+                <option>School of Business</option>
+              </select>
+            </label>
+            <div class="form-row">
+              <button type="button" class="btn btn-ghost" data-action="prev">Back</button>
+              <button type="button" class="btn btn-ghost" data-action="next">Next</button>
+            </div>
+          </div>
+
+          <div class="wizard-panel hidden" data-panel="3">
+            <p>Review and submit your application. We'll follow up via email.</p>
+            <div class="form-row">
+              <button type="button" class="btn btn-ghost" data-action="prev">Back</button>
+              <button type="submit" class="btn btn-primary">Submit Application</button>
+            </div>
+            <div class="form-status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Global Technical College — All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<div class="floating-contact" aria-label="Quick contact">
+  <a class="contact-button whatsapp" href="https://wa.me/254799295625?text=Hello%20Global%20Technical%20College%20team" target="_blank" rel="noopener noreferrer"><span>💬 WhatsApp</span></a>
+  <a class="contact-button phone" href="tel:+254799295625"><span>📞 Call Now</span></a>
+  <a class="contact-button email" href="/contact-us.html"><span>✉️ Email Us</span></a>
+</div></body>
+</html>
+
+
+

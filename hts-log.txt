@@ -1,0 +1,56 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 23 Jun 2026 16:21:51 at https://globalcollege.ac.ke/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://globalcollege.ac.ke/ -O1 "C:\Users\EBook\global college\https___globalcollege.ac.ke_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:22:50	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743103833 (from https://globalcollege.ac.ke/)
+16:22:50	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1754479225 (from https://globalcollege.ac.ke/)
+16:22:51	Error: 	"Forbidden" (403) at link https://globalcollege.ac.ke/xmlrpc.php?rsd (from https://globalcollege.ac.ke/)
+16:23:31	Error: 	"Not Found" (404) at link https://globalcollege.ac.ke/wp-content/plugins/events-addon-for-elementor/assets/css/owl.video.play.png (from https://globalcollege.ac.ke/wp-content/plugins/events-addon-for-elementor/assets/css/owl.carousel.min.css?ver=2.3.4)
+16:23:31	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743103833 (from https://globalcollege.ac.ke/)
+16:23:31	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1754479225 (from https://globalcollege.ac.ke/)
+16:23:31	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=792
+16:23:31	Warning: 	File has moved from https://globalcollege.ac.ke/?p=792 to https://globalcollege.ac.ke/student-clubs-at-global-technical-college
+16:23:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/bebasneue.css?ver=1754518908 (from https://globalcollege.ac.ke/global-technical-college-alumni-network)
+16:23:32	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=790
+16:23:32	Warning: 	File has moved from https://globalcollege.ac.ke/?p=790 to https://globalcollege.ac.ke/global-technical-college-alumni-network
+16:23:33	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=794
+16:23:33	Warning: 	File has moved from https://globalcollege.ac.ke/?p=794 to https://globalcollege.ac.ke/global-technical-training-college-events
+16:23:33	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=507
+16:23:33	Warning: 	File has moved from https://globalcollege.ac.ke/?p=507 to https://globalcollege.ac.ke/media-and-downloads
+16:23:33	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=505
+16:23:33	Warning: 	File has moved from https://globalcollege.ac.ke/?p=505 to https://globalcollege.ac.ke/college-courses-at-gttc
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=567
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=567 to https://globalcollege.ac.ke/technology-courses-in-nairobi-at-global-college
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=565
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=565 to https://globalcollege.ac.ke/electrical-engineering-courses-in-kenya
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=563
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=563 to https://globalcollege.ac.ke/hospitality-courses-in-kenya-in-kenya
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=561
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=561 to https://globalcollege.ac.ke/hairdressing-and-beauty-therapy-courses
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=559
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=559 to https://globalcollege.ac.ke/learn-english-programmes-tuition-fees
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=553
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=553 to https://globalcollege.ac.ke/business-courses-in-kenya-at-global-college
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=490
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=490 to https://globalcollege.ac.ke/about-gttc
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=509
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=509 to https://globalcollege.ac.ke/contact-us
+16:23:34	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=1986
+16:23:34	Warning: 	File has moved from https://globalcollege.ac.ke/?p=1986 to https://globalcollege.ac.ke/news
+16:23:35	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=511
+16:23:35	Warning: 	File has moved from https://globalcollege.ac.ke/?p=511 to https://globalcollege.ac.ke/gttc-online-college-application
+16:23:35	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=1190
+16:23:35	Warning: 	File has moved from https://globalcollege.ac.ke/?p=1190 to https://globalcollege.ac.ke/which-college-offers-tourism-and-hospitality
+16:23:38	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743103833 (from https://globalcollege.ac.ke/)
+16:23:38	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1754479225 (from https://globalcollege.ac.ke/)
+16:23:38	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/bebasneue.css?ver=1754518908 (from https://globalcollege.ac.ke/global-technical-college-alumni-network)
+16:23:38	Warning: 	Moved Permanently for https://globalcollege.ac.ke/?p=1150
+16:23:38	Warning: 	File has moved from https://globalcollege.ac.ke/?p=1150 to https://globalcollege.ac.ke/food-and-catering-course-global-college
+16:23:38	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://digitalcompass.co.ke/wp-content/uploads/elementor/google-fonts/css/bebasneue.css?ver=1754518908 (from https://globalcollege.ac.ke/global-technical-college-alumni-network)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 47 seconds : 313 links scanned, 284 files written (12729034 bytes overall) [5978495 bytes received at 55873 bytes/sec], 9130335 bytes transferred using HTTP compression in 227 files, ratio 23%, 25.4 requests per connection
+(5 errors, 40 warnings, 0 messages)
