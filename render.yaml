@@ -2,5 +2,5 @@ services:
   - type: web
     name: global-college-site
     env: static
-    staticPublishPath: ./globalcollege.ac.ke
+    staticPublishPath: ./
     pullRequestPreviewsEnabled: true
